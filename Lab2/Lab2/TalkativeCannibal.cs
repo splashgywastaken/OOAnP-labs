@@ -1,25 +1,12 @@
-﻿namespace Lab2;
+﻿using System;
 
-public class TalkativeCannibal : Cannibal
+namespace Lab2
 {
-    protected override void Catch()
+    public sealed class TalkativeCannibal : Cannibal
     {
-        Console.WriteLine("Разговорчивый людоед поймал добычу");
+        protected override void Cook()
+        {
+            Console.WriteLine("Каннибал жарит добычу");
+        }
     }
-
-    protected override void Cook()
-    {
-        Console.WriteLine("Разговорчивый людоед жарит добычу");
-    }
-
-    protected override void Eat()
-    {
-        Console.WriteLine("Разговорчивый людоед съел добычу");
-    }
-
-    protected override void Sleep()
-    {
-        Console.WriteLine("Разговорчивый людоед уснул");
-    }
-
 }

@@ -1,17 +1,41 @@
-﻿namespace Lab2;
+﻿using System;
 
-public abstract class Cannibal
+namespace Lab2
 {
-    protected abstract void Catch();
-    protected abstract void Cook();
-    protected abstract void Eat();
-    protected abstract void Sleep();
-
-    public void GoThroughDay()
+    public abstract class Cannibal
     {
-        Catch();
-        Cook();
-        Eat();
-        Sleep();
-    } 
+        private static void Catch()
+        {
+            
+            Console.WriteLine("Каннибал ловит добычу");
+            
+        }
+        protected abstract void Cook();
+
+        protected virtual void Talk()
+        { }
+
+        private static void Eat()
+        {
+            
+            Console.WriteLine("Каннибал ест");
+            
+        }
+
+        private static void Sleep()
+        {
+            
+            Console.WriteLine("Каннибал спит");
+            
+        }
+
+        public void GoThroughDay()
+        {
+            Catch();
+            Talk();
+            Cook();
+            Eat();
+            Sleep();
+        } 
+    }
 }

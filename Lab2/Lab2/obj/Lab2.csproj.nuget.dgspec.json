@@ -1,32 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "D:\\доки с рабочего стола\\важные документы\\карантин\\6 семестр\\ООАиП\\Lab2\\Lab2\\Lab2.csproj": {}
+    "C:\\Users\\lehak\\Desktop\\OOAnP-labs\\Lab2\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "D:\\доки с рабочего стола\\важные документы\\карантин\\6 семестр\\ООАиП\\Lab2\\Lab2\\Lab2.csproj": {
+    "C:\\Users\\lehak\\Desktop\\OOAnP-labs\\Lab2\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\доки с рабочего стола\\важные документы\\карантин\\6 семестр\\ООАиП\\Lab2\\Lab2\\Lab2.csproj",
+        "projectUniqueName": "C:\\Users\\lehak\\Desktop\\OOAnP-labs\\Lab2\\Lab2\\Lab2.csproj",
         "projectName": "Lab2",
-        "projectPath": "D:\\доки с рабочего стола\\важные документы\\карантин\\6 семестр\\ООАиП\\Lab2\\Lab2\\Lab2.csproj",
-        "packagesPath": "C:\\Users\\splashgy\\.nuget\\packages\\",
-        "outputPath": "D:\\доки с рабочего стола\\важные документы\\карантин\\6 семестр\\ООАиП\\Lab2\\Lab2\\obj\\",
+        "projectPath": "C:\\Users\\lehak\\Desktop\\OOAnP-labs\\Lab2\\Lab2\\Lab2.csproj",
+        "packagesPath": "C:\\Users\\lehak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lehak\\Desktop\\OOAnP-labs\\Lab2\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\splashgy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lehak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {

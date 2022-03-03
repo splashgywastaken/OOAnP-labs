@@ -5,22 +5,24 @@
 // Отличия:
 // Первый жарит
 // Второй варит, а перед тем разговаривает
-namespace Lab2;
 
-internal static class Program
+using System;
+
+namespace Lab2
 {
-
-    private static void Main(string[] args)
+    internal static class Program
     {
-        Cannibal talkative = new TalkativeCannibal();
-        Cannibal silent = new SilentCannibal();
+        private static void Main(string[] args)
+        {
+            Cannibal talkative = new TalkativeCannibal();
+            Cannibal silent = new SilentCannibal();
         
-        Console.WriteLine("День разговорчивого каннибала:");
-        talkative.GoThroughDay();
-        Console.WriteLine();
+            Console.WriteLine("День разговорчивого каннибала:");
+            talkative.GoThroughDay();
+            Console.WriteLine();
         
-        Console.WriteLine("День молчаливого каннибала:");
-        silent.GoThroughDay();
+            Console.WriteLine("День молчаливого каннибала:");
+            silent.GoThroughDay();
+        }
     }
-    
 }
