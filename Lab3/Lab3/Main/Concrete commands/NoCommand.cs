@@ -3,24 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 using Lab3.Main.Interface;
 
-namespace Lab3.Main.Impl
+namespace Lab3.Main.Concrete_commands
 {
-    internal class UndoCommand : ICommand
+    internal class NoCommand : ICommand
     {
-        public void Execute()
+        public string Execute()
         {
             throw new NotImplementedException();
         }
 
-        public void Undo()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Name()
+        public string Undo()
         {
             throw new NotImplementedException();
         }

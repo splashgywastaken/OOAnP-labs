@@ -46,8 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main\Impl\UndoCommand.cs" />
+    <Compile Include="Main\Concrete commands\DoorCloseCommand.cs" />
+    <Compile Include="Main\Concrete commands\DoorOpenCommand.cs" />
+    <Compile Include="Main\Concrete commands\FanOffCommand.cs" />
+    <Compile Include="Main\Concrete commands\FanOnCommand.cs" />
+    <Compile Include="Main\Concrete commands\HeaterOffCommand.cs" />
+    <Compile Include="Main\Concrete commands\HeaterOnCommand.cs" />
+    <Compile Include="Main\Concrete commands\LightOffCommand.cs" />
+    <Compile Include="Main\Concrete commands\LightOnCommand.cs" />
+    <Compile Include="Main\Concrete commands\NoCommand.cs" />
+    <Compile Include="Main\Concrete commands\UndoCommand.cs" />
     <Compile Include="Main\Interface\ICommand.cs" />
+    <Compile Include="Main\Receiver\Door.cs" />
+    <Compile Include="Main\Receiver\Fan.cs" />
+    <Compile Include="Main\Receiver\Heater.cs" />
+    <Compile Include="Main\Receiver\Light.cs" />
+    <Compile Include="Main\RemoteInvoker.cs" />
     <Compile Include="Remote.cs">
       <SubType>Form</SubType>
     </Compile>

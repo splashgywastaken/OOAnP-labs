@@ -104,7 +104,6 @@ namespace Lab3
 
         public void AddText(string text)
         {
-
             MainScreen.AppendText(text);
             MainScreen.AppendText(Environment.NewLine);
         }

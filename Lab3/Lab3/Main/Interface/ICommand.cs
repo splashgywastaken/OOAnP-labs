@@ -1,9 +1,8 @@
 ﻿namespace Lab3.Main.Interface
 {
-    public interface ICommand
+    internal interface ICommand
     {
-        void Execute();
-        void Undo();
-        void Name();
+        string Execute();
+        string Undo();
     }
 }
