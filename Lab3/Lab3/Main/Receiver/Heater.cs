@@ -8,10 +8,23 @@ namespace Lab3.Main.Entities
 {
     internal class Heater
     {
+        private bool _isOn = false;
 
-        public string On() => "Heater is on";
+        public string On()
+        {
+            if (_isOn) return string.Empty;
 
-        public string Off() => "Heater is off";
+            _isOn = true;
+            return "Heater is on";
+        }
+
+        public string Off()
+        {
+            if (!_isOn) return string.Empty;
+
+            _isOn = false;
+            return "Heater is off";
+        }
 
     }
 }

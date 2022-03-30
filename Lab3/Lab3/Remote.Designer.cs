@@ -41,6 +41,7 @@
             this.DoorCloseButton = new System.Windows.Forms.Button();
             this.TurnOffButton = new System.Windows.Forms.Button();
             this.ClearLogButton = new System.Windows.Forms.Button();
+            this.getInfoCommandsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UndoButton
@@ -49,7 +50,7 @@
             this.UndoButton.Name = "UndoButton";
             this.UndoButton.Size = new System.Drawing.Size(235, 39);
             this.UndoButton.TabIndex = 0;
-            this.UndoButton.Text = "Повторить действие";
+            this.UndoButton.Text = "Отменить действие";
             this.UndoButton.UseVisualStyleBackColor = true;
             this.UndoButton.Click += new System.EventHandler(this.UndoButton_Click);
             // 
@@ -166,20 +167,31 @@
             // 
             // ClearLogButton
             // 
-            this.ClearLogButton.Location = new System.Drawing.Point(12, 424);
+            this.ClearLogButton.Location = new System.Drawing.Point(11, 424);
             this.ClearLogButton.Name = "ClearLogButton";
-            this.ClearLogButton.Size = new System.Drawing.Size(234, 39);
+            this.ClearLogButton.Size = new System.Drawing.Size(110, 39);
             this.ClearLogButton.TabIndex = 15;
             this.ClearLogButton.Text = "Очистить лог";
             this.ClearLogButton.UseVisualStyleBackColor = true;
             this.ClearLogButton.Click += new System.EventHandler(this.ClearLogButton_Click);
+            // 
+            // getInfoCommandsButton
+            // 
+            this.getInfoCommandsButton.Location = new System.Drawing.Point(127, 424);
+            this.getInfoCommandsButton.Name = "getInfoCommandsButton";
+            this.getInfoCommandsButton.Size = new System.Drawing.Size(119, 39);
+            this.getInfoCommandsButton.TabIndex = 16;
+            this.getInfoCommandsButton.Text = "Просмотр состояния";
+            this.getInfoCommandsButton.UseVisualStyleBackColor = true;
+            this.getInfoCommandsButton.Click += new System.EventHandler(this.useCommandsButton_Click);
             // 
             // Remote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(499, 471);
+            this.ClientSize = new System.Drawing.Size(499, 469);
+            this.Controls.Add(this.getInfoCommandsButton);
             this.Controls.Add(this.ClearLogButton);
             this.Controls.Add(this.TurnOffButton);
             this.Controls.Add(this.DoorCloseButton);
@@ -215,6 +227,7 @@
         private System.Windows.Forms.Button DoorCloseButton;
         private System.Windows.Forms.Button TurnOffButton;
         private System.Windows.Forms.Button ClearLogButton;
+        private System.Windows.Forms.Button getInfoCommandsButton;
     }
 }
 

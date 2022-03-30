@@ -8,10 +8,23 @@ namespace Lab3.Main.Entities
 {
     internal class Fan
     {
+        private bool _isOn = false;
 
-        public string On() => "Fan is on";
+        public string On()
+        {
+            if (_isOn) return string.Empty;
 
-        public string Off() => "Fan is off";
+            _isOn = true;
+            return "Fan is on";
+        }
+
+        public string Off()
+        {
+            if (!_isOn) return string.Empty;
+
+            _isOn = false;
+            return "Fan is off";
+        }
 
     }
 }

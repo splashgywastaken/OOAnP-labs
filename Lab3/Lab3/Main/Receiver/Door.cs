@@ -8,10 +8,23 @@ namespace Lab3.Main.Entities
 {
     internal class Door
     {
+        private bool _isOpened = false;
 
-        public string Open() => "Door is opened";
+        public string Open()
+        {
+            if (_isOpened) return string.Empty;
 
-        public string Close() => "Door is closed";
+            _isOpened = true;
+            return "Door is opened";
+        }
 
-    }
+        public string Close()
+        {
+            if (!_isOpened) return string.Empty;
+
+            _isOpened = false;
+            return "Door is closed";
+        }
+
+}
 }
