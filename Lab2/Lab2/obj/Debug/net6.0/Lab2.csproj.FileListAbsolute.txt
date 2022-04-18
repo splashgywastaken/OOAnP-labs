@@ -1,0 +1,30 @@
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\bin\Debug\net6.0\Lab2.exe
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\bin\Debug\net6.0\Lab2.deps.json
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\bin\Debug\net6.0\Lab2.runtimeconfig.json
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\bin\Debug\net6.0\Lab2.dll
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\bin\Debug\net6.0\Lab2.pdb
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\Lab2.csproj.AssemblyReference.cache
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfoInputs.cache
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfo.cs
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\Lab2.csproj.CoreCompileInputs.cache
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\Lab2.dll
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\refint\Lab2.dll
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\Lab2.pdb
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\Lab2.genruntimeconfig.cache
+D:\доки с рабочего стола\важные документы\карантин\6 семестр\ООАиП\Lab2\Lab2\obj\Debug\net6.0\ref\Lab2.dll
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\bin\Debug\net6.0\Lab2.exe
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\bin\Debug\net6.0\Lab2.deps.json
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\bin\Debug\net6.0\Lab2.runtimeconfig.json
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\bin\Debug\net6.0\Lab2.dll
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\bin\Debug\net6.0\Lab2.pdb
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\Lab2.csproj.AssemblyReference.cache
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfoInputs.cache
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfo.cs
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\Lab2.dll
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\refint\Lab2.dll
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\Lab2.pdb
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\Lab2.genruntimeconfig.cache
+C:\Users\lehak\Desktop\OOAnP-labs\Lab2\Lab2\obj\Debug\net6.0\ref\Lab2.dll
