@@ -1,19 +1,42 @@
-﻿using Lab4.TeamFaculty;
+﻿using System;
+using System.Collections.Generic;
+using Lab4.Factory;
+using Lab4.TeamFaculty;
 
-namespace Lab4.Faculty;
-
-public class AmmFaculty : IFaculty
+namespace Lab4.Faculty
 {
-    private readonly Team _ammTeam;
-    
-    public AmmFaculty()
+    public class AmmFaculty : Faculty
     {
-        this._ammTeam = new Team("AMM");
-    }
+        private readonly IFactory _ammFactory;
 
-    public void Perform()
-    {
-        Console.WriteLine("AMM faculty performs...");
-        _ammTeam.PerformTeam();
+        public AmmFaculty()
+        {
+            _ammFactory = new AmmFacultyFactory();
+            _facultyName = "AMM";
+            _dancers = new List<ICrewman>();
+            _singers = new List<ICrewman>();
+            _leaders = new List<ICrewman>();
+        }
+
+        public override void Prepare()
+        {
+            _leaders.Add(_ammFactory.CreateLeader(1));
+            for (int i = 0; i < 2; i++)
+            {
+                _singers.Add(_ammFactory.CreateSinger(i + 1));
+            }
+            for (int i = 0; i < 3; i++)
+            {
+                _singers.Add(_ammFactory.CreateDancer(i + 1));
+            }
+        }
+
+        public override void Perform()
+        {
+            Console.WriteLine("Math faculty performs...");
+            _leaders.ForEach(p => p.Perform());
+            _dancers.ForEach(p => p.Perform());
+            _singers.ForEach(p => p.Perform());
+        }
     }
 }

@@ -1,22 +1,26 @@
-﻿namespace Lab4.TeamFaculty;
+﻿using System;
 
-public class Dancer
+namespace Lab4.TeamFaculty
 {
-    private readonly int _dancerNumber;
 
-    public Dancer(int dancerNumber)
+    public class Dancer : ICrewman
     {
-        this._dancerNumber = dancerNumber;
-    }
+        private readonly int _dancerNumber;
 
-    public void Perform()
-    {
-        Console.WriteLine("I'm dancer №{0} and I'm dancing...", GetNumberDancer());
-    }
+        public Dancer(int dancerNumber)
+        {
+            this._dancerNumber = dancerNumber;
+        }
 
-    public int GetNumberDancer()
-    {
-        return _dancerNumber;
+        public void Perform()
+        {
+            Console.WriteLine("I'm dancer №{0} and I'm dancing...", GetNumber());
+        }
+
+        public int GetNumber()
+        {
+            return _dancerNumber;
+        }
+
     }
-    
 }

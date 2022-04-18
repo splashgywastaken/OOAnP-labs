@@ -1,11 +1,26 @@
 ﻿using Lab4.Faculty;
+using Lab4.TeamFaculty;
 
-namespace Lab4.Factory;
-
-public class MathFacultyFactory : IFactory
+namespace Lab4.Factory
 {
-    public IFaculty CreateFaculty()
+    public class MathFacultyFactory : IFactory
     {
-        return new MathFaculty();
+        public ICrewman CreateSinger(int crewmanNumber)
+        {
+            return
+                new Singer(crewmanNumber);
+        }
+
+        public ICrewman CreateDancer(int crewmanNumber)
+        {
+            return
+                new Dancer(crewmanNumber);
+        }
+
+        public ICrewman CreateLeader(int crewmanNumber)
+        {
+            return
+                new TeamLeader(crewmanNumber);
+        }
     }
 }

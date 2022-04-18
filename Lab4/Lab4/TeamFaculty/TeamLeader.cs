@@ -1,18 +1,24 @@
-﻿namespace Lab4.TeamFaculty;
+﻿using System;
 
-public class TeamLeader
+namespace Lab4.TeamFaculty
 {
-    private readonly int _numberLeader;
+    public class TeamLeader : ICrewman
+    {
+        private readonly int _numberLeader;
 
-    public TeamLeader(int numberLeader) {
-        this._numberLeader = numberLeader;
-    }
+        public TeamLeader(int numberLeader)
+        {
+            this._numberLeader = numberLeader;
+        }
 
-    public void Perform() {
-        Console.WriteLine("I'm the leader №{0} of the event and I'm speaking...", GetNumberLeader());
-    }
+        public void Perform()
+        {
+            Console.WriteLine("I'm the leader №{0} of the event and I'm speaking...", GetNumber());
+        }
 
-    public int GetNumberLeader() {
-        return _numberLeader;
+        public int GetNumber()
+        {
+            return _numberLeader;
+        }
     }
 }

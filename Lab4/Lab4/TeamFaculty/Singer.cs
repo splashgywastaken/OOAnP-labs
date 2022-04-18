@@ -1,21 +1,24 @@
-﻿namespace Lab4.TeamFaculty;
+﻿using System;
 
-public class Singer
+namespace Lab4.TeamFaculty
 {
-    private readonly int _signerNumber;
-
-    public Singer(int signerNumber)
+    public class Singer : ICrewman
     {
-        this._signerNumber = signerNumber;
-    }
+        private readonly int _signerNumber;
 
-    public void Perform()
-    {
-        Console.WriteLine("I'm singer №{0} and I'm singing...", GetNumberSigner());
-    }
+        public Singer(int signerNumber)
+        {
+            this._signerNumber = signerNumber;
+        }
 
-    public int GetNumberSigner()
-    {
-        return _signerNumber;
+        public void Perform()
+        {
+            Console.WriteLine("I'm singer №{0} and I'm singing...", GetNumber());
+        }
+
+        public int GetNumber()
+        {
+            return _signerNumber;
+        }
     }
 }
